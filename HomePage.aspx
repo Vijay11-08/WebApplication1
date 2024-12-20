@@ -10,8 +10,8 @@
     <form id="form1" runat="server">
         <div>
              <center>
-                <h1>Home Page Of Websitehjhjhjhjhhh</h1>
-                 Home Home
+                <h1>Home Page Of Website</h1>
+                 
             </center>
         </div>
     </form>
