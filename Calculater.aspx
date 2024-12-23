@@ -12,9 +12,6 @@
         .auto-style2 {
             margin-left: 520px;
         }
-        .auto-style3 {
-            margin-left: 400px;
-        }
         .auto-style4 {
             margin-left: 560px;
         }
@@ -33,11 +30,21 @@
 
         </div>
         <p style="width: 103px" class="auto-style2">
-            Num 01 :-
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            Num 01 :-</p>
+        <p style="width: 103px" class="auto-style2">
+            &nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         </p>
-        <p class="auto-style3">
-            Num 02 :-<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <p class="auto-style2">
+            Num 02 :-
+        </p>
+        <p class="auto-style2">
+            <asp:TextBox ID="TextBox2" runat="server" OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
+        </p>
+        <p class="auto-style2">
+            <asp:Label ID="Label1" runat="server" Text="Num 03 :- "></asp:Label>
+        </p>
+        <p class="auto-style2">
+            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
         </p>
         <p>
             &nbsp;</p>
