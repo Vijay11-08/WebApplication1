@@ -21,7 +21,10 @@
             <br />
         </div>
         <div class="auto-style1">
-            <asp:TextBox ID="TextBox1" runat="server" Height="68px" Width="606px"></asp:TextBox>
+            &nbsp;&nbsp;
+            <asp:TextBox ID="TextBox1" runat="server" Height="68px" Width="418px"></asp:TextBox>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="ButtonClear" runat="server" Height="54px" OnClick="ButtonDivide_Click" Text="Clear" Width="118px" />
         </div>
         <br />
         <br />
@@ -66,14 +69,14 @@
         <asp:Button ID="ButtonEqualto" runat="server" Height="54px" OnClick="ButtonEqualto_Click" Text="=" Width="118px" />
         <br />
         <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label1" runat="server" Text="Answer"></asp:Label>
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="Label1" runat="server" Text="Answer Is "></asp:Label>
         <br />
         <br />
-         <asp:Label ID="lblDisplay" runat="server" Text="0" style="display:block; font-size:24px; margin-bottom:10px;"></asp:Label>
         
     </form>
 </body>
