@@ -15,6 +15,9 @@
         .auto-style4 {
             margin-left: 560px;
         }
+        .auto-style5 {
+            margin-left: 480px;
+        }
     </style>
 </head>
 <body>
@@ -51,8 +54,12 @@
         <p class="auto-style4">
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
         </p>
-        <p>
+        <p class="auto-style4">
             &nbsp;</p>
+        <p class="auto-style5">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+        </p>
         <p>
             &nbsp;</p>
         <p>

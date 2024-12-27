@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
@@ -44,15 +45,16 @@ namespace WebApplication1
         // Clear button functionality
         protected void ButtonClear_Click(object sender, EventArgs e)
         {
-            // Reset all variables and clear TextBox1
             value1 = 0;
             value2 = 0;
             operation = string.Empty;
             isOperationClicked = false;
-            TextBox1.Text = string.Empty; // Clears the display
-            Label1.Text = string.Empty; // Clears the result output
-          
+
+            TextBox1.Text = String.Empty; // Clears the textbox
+            Label1.Text = String.Empty;   // Clears the label (if used for output)
         }
+
+
 
         // Button equals click
         protected void ButtonEqualto_Click(object sender, EventArgs e)

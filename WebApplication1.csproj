@@ -68,9 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="AllTutorials.aspx" />
     <Content Include="Calculater.aspx" />
     <Content Include="Cals.aspx" />
     <Content Include="HomePage.aspx" />
+    <Content Include="Tutorial01_01.aspx" />
+    <Content Include="Tutorial01_02.aspx" />
+    <Content Include="Tutorial01_03.aspx" />
+    <Content Include="Tutorial01_04.aspx" />
     <Content Include="Web.config" />
     <Content Include="HelloWorld.aspx" />
   </ItemGroup>
@@ -81,6 +86,13 @@
     </Compile>
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllTutorials.aspx.cs">
+      <DependentUpon>AllTutorials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllTutorials.aspx.designer.cs">
+      <DependentUpon>AllTutorials.aspx</DependentUpon>
     </Compile>
     <Compile Include="Calculater.aspx.cs">
       <DependentUpon>Calculater.aspx</DependentUpon>
@@ -110,6 +122,34 @@
     </Compile>
     <Compile Include="HelloWorld.aspx.designer.cs">
       <DependentUpon>HelloWorld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial01_01.aspx.cs">
+      <DependentUpon>Tutorial01_01.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial01_01.aspx.designer.cs">
+      <DependentUpon>Tutorial01_01.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial01_02.aspx.cs">
+      <DependentUpon>Tutorial01_02.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial01_02.aspx.designer.cs">
+      <DependentUpon>Tutorial01_02.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial01_03.aspx.cs">
+      <DependentUpon>Tutorial01_03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial01_03.aspx.designer.cs">
+      <DependentUpon>Tutorial01_03.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tutorial01_04.aspx.cs">
+      <DependentUpon>Tutorial01_04.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial01_04.aspx.designer.cs">
+      <DependentUpon>Tutorial01_04.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
