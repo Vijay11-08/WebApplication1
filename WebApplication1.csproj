@@ -70,6 +70,7 @@
     <Content Include="AboutUs.aspx" />
     <Content Include="AllTutorials.aspx" />
     <Content Include="Calculater.aspx" />
+    <Content Include="CalenderFile.aspx" />
     <Content Include="Cals.aspx" />
     <Content Include="HomePage.aspx" />
     <Content Include="Tutorial01_01.aspx" />
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="Calculater.aspx.designer.cs">
       <DependentUpon>Calculater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CalenderFile.aspx.cs">
+      <DependentUpon>CalenderFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalenderFile.aspx.designer.cs">
+      <DependentUpon>CalenderFile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Cals.aspx.cs">
       <DependentUpon>Cals.aspx</DependentUpon>
