@@ -68,17 +68,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
+    <Content Include="AddRoteterControle.aspx" />
     <Content Include="AllTutorials.aspx" />
     <Content Include="Calculater.aspx" />
     <Content Include="CalenderFile.aspx" />
     <Content Include="Cals.aspx" />
+    <Content Include="Flipkart GRiD 6.0.jpg" />
     <Content Include="HomePage.aspx" />
+    <Content Include="IMG-20240813-WA0024.jpg" />
     <Content Include="Tutorial01_01.aspx" />
     <Content Include="Tutorial01_02.aspx" />
     <Content Include="Tutorial01_03.aspx" />
     <Content Include="Tutorial01_04.aspx" />
     <Content Include="Web.config" />
     <Content Include="HelloWorld.aspx" />
+    <Content Include="XMLFile.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AboutUs.aspx.cs">
@@ -87,6 +91,13 @@
     </Compile>
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddRoteterControle.aspx.cs">
+      <DependentUpon>AddRoteterControle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddRoteterControle.aspx.designer.cs">
+      <DependentUpon>AddRoteterControle.aspx</DependentUpon>
     </Compile>
     <Compile Include="AllTutorials.aspx.cs">
       <DependentUpon>AllTutorials.aspx</DependentUpon>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>Flipkart GRiD 6.0.jpg</ImageUrl>
+		<Keywords>Black,blank</Keywords>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText>Black Image</AlternateText>
+		<Impression>3</Impression>
+	</Ad>
+	<Ad>
+		<ImageUrl>IMG-20240813-WA0024.jpg</ImageUrl>
+		<Keywords>Black,blank</Keywords>
+		<NavigateUrl>www.google.com</NavigateUrl>
+		<AlternateText>Black Image</AlternateText>
+		<Impression>3</Impression>
+	</Ad>
+</Advertisements>
+
+
+	
