@@ -37,6 +37,16 @@
             <p class="auto-style2">
                 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
             </p>
+            <p class="auto-style2">
+                <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+            <p class="auto-style2">
+                <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+            </p>
+            <p class="auto-style2">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
         </div>
     </form>
 </body>

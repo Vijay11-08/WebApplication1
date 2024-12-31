@@ -35,5 +35,10 @@ namespace WebApplication1
                 Label1.Text = "File Not Upload....";
             }
         }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+            Label2.Text = "Selected Date :- " + Calendar1.SelectedDate.ToString();
+        }
     }
 }
