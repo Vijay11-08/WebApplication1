@@ -8,10 +8,13 @@
     <style type="text/css">
         .auto-style1 {
             margin-left: 80px;
+            height: 80px;
+            width:40px;
         }
         .auto-style2 {
             margin-left: 200px;
         }
+
     </style>
 </head>
 <body>
@@ -30,15 +33,17 @@
 &nbsp;&nbsp;
             </p>
             <p class="auto-style2">
+                &nbsp;&nbsp;
                 &nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Upload" />
             </p>
             <p class="auto-style2">
                 &nbsp;</p>
             <p class="auto-style2">
                 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-            </p>
+            &nbsp;</p>
             <p class="auto-style2">
                 <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
+&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </p>
             <p class="auto-style2">

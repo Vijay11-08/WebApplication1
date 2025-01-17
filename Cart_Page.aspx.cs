@@ -20,9 +20,9 @@ namespace WebApplication1
         private void LoadCart()
         {
             // Load cart items from session
-            var cart = (List<Product>)Session["Cart"] ?? new List<Product>();
-            CartGridView.DataSource = cart;
-            CartGridView.DataBind();
+            //var cart = (List<Product>)Session["Cart"] ?? new List<Product>();
+            //CartGridView.DataSource = cart;
+            //CartGridView.DataBind();
         }
 
 

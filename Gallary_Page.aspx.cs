@@ -36,23 +36,23 @@ namespace WebApplication1
         {
             foreach (var product in products)
             {
-                var productCard = productTemplate.CloneControl();
+               // var productCard = productTemplate.CloneControl();
 
-                // Set product details
-                productCard.Visible = true;
-                productCard.ID = $"product_{product.Id}";
-                var img = (System.Web.UI.WebControls.Image)productCard.FindControl("product-img");
-                var name = (System.Web.UI.WebControls.Literal)productCard.FindControl("product-name");
-                var price = (System.Web.UI.WebControls.Literal)productCard.FindControl("product-price");
-                var btn = (System.Web.UI.WebControls.Button)productCard.FindControl("add-to-cart-btn");
+                //// Set product details
+                //productCard.Visible = true;
+                //productCard.ID = $"product_{product.Id}";
+                //var img = (System.Web.UI.WebControls.Image)productCard.FindControl("product-img");
+                //var name = (System.Web.UI.WebControls.Literal)productCard.FindControl("product-name");
+                //var price = (System.Web.UI.WebControls.Literal)productCard.FindControl("product-price");
+                //var btn = (System.Web.UI.WebControls.Button)productCard.FindControl("add-to-cart-btn");
 
-                img.ImageUrl = product.ImageUrl;
-                name.Text = product.Name;
-                price.Text = $"${product.Price}";
-                btn.CommandArgument = product.Id.ToString();
+                //img.ImageUrl = product.ImageUrl;
+                //name.Text = product.Name;
+                //price.Text = $"${product.Price}";
+                //btn.CommandArgument = product.Id.ToString();
 
                 // Add product card to the gallery
-                gallery.Controls.Add(productCard);
+              //  gallery.Controls.Add(productCard);
             }
         }
 
