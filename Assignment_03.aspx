@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
+            <asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="3">
                 <asp:View ID="view1" runat="server">
                     <center>View 1: Student Personal Info<br />
                         <br />
@@ -72,11 +72,13 @@
                         Confirm Password&nbsp;&nbsp;
                         <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
                         &nbsp;&nbsp;
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TextBox7" ErrorMessage="Please Confoirm Password" ForeColor="Red"></asp:RequiredFieldValidator>
                         <br />
                         <br />
                         Contact No.&nbsp;&nbsp;
                         <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
                         &nbsp;&nbsp;&nbsp;
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="TextBox8" ErrorMessage="Please Enter Contact Details" ForeColor="Red"></asp:RequiredFieldValidator>
                         <br />
                         <br />
                         <br />
@@ -101,6 +103,66 @@
                           &nbsp;&nbsp;
                           <br />
                       </center>
+                </asp:View>
+
+                
+                <asp:View ID="view4" runat="server">
+                     <center>Register Page&nbsp;&nbsp;
+                         <br />
+                         &nbsp;<br /> Full Name&nbsp;&nbsp;&nbsp;
+                         <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+&nbsp;
+                         <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="TextBox9" ErrorMessage="Please Enter FullName" ForeColor="Red"></asp:RequiredFieldValidator>
+                         <br />
+                         <br />
+                         Sem
+                         <asp:TextBox ID="TextBox14" runat="server"></asp:TextBox>
+                         &nbsp;&nbsp;&nbsp;
+                         <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ControlToValidate="TextBox14" ErrorMessage="Please Enter Semester" ForeColor="Red"></asp:RequiredFieldValidator>
+                         <br />
+                         <br />
+                         Branch&nbsp;
+                         <asp:TextBox ID="TextBox15" runat="server"></asp:TextBox>
+                         &nbsp;
+                         <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ControlToValidate="TextBox15" ErrorMessage="Enter a Branch" ForeColor="Red"></asp:RequiredFieldValidator>
+                         <br />
+                         <br />
+                         Email&nbsp;&nbsp;&nbsp;
+                         <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
+                         &nbsp;&nbsp;&nbsp;
+                         <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBox10" ErrorMessage="Enter Email" ForeColor="Red" ValidationExpression="^[^@\s]+@[^@\s]+\.[^@\s]+$"></asp:RegularExpressionValidator>
+                         <br />
+                         <br />
+                         Password&nbsp;&nbsp;&nbsp;
+                         <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+                         &nbsp;&nbsp;&nbsp;
+                         <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="TextBox11" ErrorMessage="Please Enter Password" ForeColor="Red"></asp:RequiredFieldValidator>
+                         <br />
+                         <br />
+                         Confirorm Password&nbsp;
+                         <asp:TextBox ID="TextBox13" runat="server"></asp:TextBox>
+                         &nbsp;
+                         <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox11" ControlToValidate="TextBox13" ErrorMessage="Password Does Not Match" ForeColor="Orange"></asp:CompareValidator>
+                         <br />
+                         <br />
+                         Phone Number&nbsp;&nbsp;&nbsp;
+                         <asp:TextBox ID="TextBox12" runat="server"></asp:TextBox>
+                         &nbsp;&nbsp;&nbsp;
+                         <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ControlToValidate="TextBox12" ErrorMessage="Please Enter Mobile Number " ForeColor="Red"></asp:RequiredFieldValidator>
+                         <br />
+                         <br />
+                         Gender&nbsp;&nbsp;&nbsp;
+                         <asp:RadioButton ID="RadioButton3" runat="server" Text="Male" />
+                         &nbsp;&nbsp;&nbsp;&nbsp;
+                         <asp:RadioButton ID="RadioButton4" runat="server" Text="Female" />
+                         &nbsp;&nbsp;&nbsp;
+                         <br />
+                         <br />
+                         <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Submit" />
+                          <br />
+                          <br />
+
+                    
                 </asp:View>
 
 
