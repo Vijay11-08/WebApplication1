@@ -80,6 +80,7 @@
     <Content Include="CalenderFile.aspx" />
     <Content Include="Cals.aspx" />
     <Content Include="Cart_Page.aspx" />
+    <Content Include="ContactUs.aspx" />
     <Content Include="Contect_Us.aspx" />
     <Content Include="Flipkart GRiD 6.0.jpg" />
     <Content Include="Gallary_Page.aspx" />
@@ -87,6 +88,8 @@
     <Content Include="Home_Page.aspx" />
     <Content Include="IMG-20240813-WA0024.jpg" />
     <Content Include="Multiview.aspx" />
+    <Content Include="PhotoGallery.aspx" />
+    <Content Include="Resume.aspx" />
     <Content Include="Tutorial01_01.aspx" />
     <Content Include="Tutorial01_02.aspx" />
     <Content Include="Tutorial01_03.aspx" />
@@ -160,6 +163,13 @@
     <Compile Include="Cart_Page.aspx.designer.cs">
       <DependentUpon>Cart_Page.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contect_Us.aspx.cs">
       <DependentUpon>Contect_Us.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -202,6 +212,13 @@
     <Compile Include="Multiview.aspx.designer.cs">
       <DependentUpon>Multiview.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PhotoGallery.aspx.cs">
+      <DependentUpon>PhotoGallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhotoGallery.aspx.designer.cs">
+      <DependentUpon>PhotoGallery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="HelloWorld.aspx.cs">
       <DependentUpon>HelloWorld.aspx</DependentUpon>
@@ -209,6 +226,13 @@
     </Compile>
     <Compile Include="HelloWorld.aspx.designer.cs">
       <DependentUpon>HelloWorld.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resume.aspx.cs">
+      <DependentUpon>Resume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resume.aspx.designer.cs">
+      <DependentUpon>Resume.aspx</DependentUpon>
     </Compile>
     <Compile Include="Tutorial01_01.aspx.cs">
       <DependentUpon>Tutorial01_01.aspx</DependentUpon>
@@ -245,10 +269,18 @@
     <Compile Include="Tutorial02_01.aspx.designer.cs">
       <DependentUpon>Tutorial02_01.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Tutorial4Page.Master.cs">
+      <DependentUpon>Tutorial4Page.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tutorial4Page.Master.designer.cs">
+      <DependentUpon>Tutorial4Page.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master_Page.Master" />
     <None Include="packages.config" />
+    <Content Include="Tutorial4Page.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

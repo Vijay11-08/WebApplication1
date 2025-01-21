@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Tutorial4Page.master.cs" Inherits="WebApplication1.Tutorial4Page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table border="1" width="800" align="center" cellpadding="10" cellspacing="0">
+            <!-- Header Row -->
+            <tr style="background-color: #f2f2f2;">
+                <td colspan="2">
+                    <table width="100%">
+                        <tr>
+                            <td><h1 style="margin: 0;">MySite</h1></td>
+                            <td style="text-align: right;">
+                                <p>NAME: Otaradi Vijay</p>
+                                <p>EMAIL ID: vijayotaradi118@gmail.com</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Navigation and Content Row -->
+            <tr>
+                <!-- Left Navigation -->
+                <td width="20%" valign="top" style="background-color: #f9f9f9;">
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="Resume.aspx">Resume</a></li>
+                        <li><a href="PhotoGallery.aspx">Photogallery</a></li>
+                        <li><a href="ContactUs.aspx">Contact Us</a></li>
+                    </ul>
+                </td>
+                <!-- Main Content -->
+                <td width="80%" valign="top" style="background-color: #f4f4f4;">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+
+            <!-- Footer Row -->
+            <tr style="background-color: #d9d9d9;">
+                <td colspan="2" align="center">
+                    <p>© 2025: ALL RIGHTS ARE RESERVED BY VIJAY OTARADI</p>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </form>
+</body>
+</html>
